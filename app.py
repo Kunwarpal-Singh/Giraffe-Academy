@@ -1,9 +1,9 @@
-# While Loop
+# Creating a guessing game
 
-i = 1
+secret_word = "giraffe"
+guess = " "
 
-while i <= 10:
-    print(i)
-    i += 1
+while guess != secret_word:
+    guess = input("Enter guess: ")
 
-print("Done with the loop")
+print("You win!")
