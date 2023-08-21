@@ -1,4 +1,9 @@
 # For loops
 
-for letter in "Giraffe Academy":
-    print(letter)
+friends = ["Jim", "Karen", "Kevin"]
+
+for index in range(5):
+    if index == 0:
+        print("First iteration")
+    else:
+        print("Not first")
