@@ -1,8 +1,7 @@
 # Learning to access an external file
 
-employee_file = open("employees.txt", "r")
+employee_file = open("employees.txt", "a")
 
-for employee in employee_file.readlines():
-    print(employee)
+employee_file.write("\nKelly - CUstomer Service")
 
 employee_file.close()
