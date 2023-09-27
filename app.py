@@ -1,7 +1,7 @@
-# Learning to access an external file
+# Classes & Objects
+from Student import Student
 
-employee_file = open("index.html", "w")
+student1 = Student("Jim", "Business", 3.1, False)
+student2 = Student("Pam", "Art", 2.5, True)
 
-employee_file.write("<p>This is HTML</p>")
-
-employee_file.close()
+print(student2.name)
