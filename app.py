@@ -1,7 +1,9 @@
-# Object Functions
-from Student import Student
+# Inheritance
+from Chef import Chef
+from ChineseChef import ChineseChef
 
-student1 = Student("Oscar", "Accounting", 3.1, True)
-student2 = Student("Phyllis", "Business", 3.8, False)
+myChef = Chef()
+myChef.make_special_dish()
 
-print(student2.on_honor_roll())
+myChineseChef = ChineseChef()
+myChineseChef.make_special_dish()
